@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我们 | 模拟电路学习网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>关于我们</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="notes.html">我的笔记</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>我们的使命</h2>
+            <p>我们致力于为初学者提供易于理解的模拟电路知识，帮助他们掌握基本概念和技能。</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 模拟电路学习网站</p>
+    </footer>
+</body>
+</html>

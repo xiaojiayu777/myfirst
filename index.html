@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>模拟电路学习网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>欢迎来到模拟电路学习网站</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="notes.html">我的笔记</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>学习模拟电路</h2>
+            <p>在这里，你可以找到关于模拟电路的基本知识和资源。</p>
+            <button onclick="alert('学习电路！')">开始学习</button>
+        </section>
+        
+        <section>
+            <h2>交互式电路图</h2>
+            <button onclick="showCircuit('circuit1')">显示电路图 2</button>
+            <button onclick="showCircuit('circuit2')">显示电路图 2</button>
+            <div id="circuitDisplay"></div>
+        </section>
+
+        <section>
+            <h2>学习资源推荐</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/results?search_query=%E6%A8%A1%E6%8A%80%E7%94%B5%E8%B7%AF" target="_blank">YouTube 模拟电路教程</a></li>
+                <li><a href="https://www.edx.org/course/circuits-and-electronics-1-basic-circuit-analysis" target="_blank">edX: 电路与电子学</a></li>
+                <li><a href="https://www.amazon.com/s?k=%E6%A8%A1%E6%8A%80%E7%94%B5%E8%B7%AF" target="_blank">相关书籍</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 模拟电路学习网站</p>
+    </footer>
+
+    <script>
+        function showCircuit(circuit) {
+            const circuitDisplay = document.getElementById('circuitDisplay');
+            if (circuit === 'circuit1') {
+                circuitDisplay.innerHTML = '<img src="circuit1.png" alt="电路图 1" />';
+            } else if (circuit === 'circuit2') {
+                circuitDisplay.innerHTML = '<img src="circuit2.png" alt="电路图 2" />';
+            }
+        }
+    </script>
+</body>
+</html>
+
+
